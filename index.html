@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <script src="main.js" module type="module"></script>
+    <script>window.global = window;</script>
+    <!-- <script src="whep.js" module type="module"></script> -->
+    <style>
+      body {
+        background: #e2e1e0;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        color: #555;
+        font-family: 'Roboto';
+        width: 100%;
+    }
+
+    video {
+      width: 640px;
+      height: 480px;
+    }
+
+    #videosContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+  </style>
+</head>
+  <body>
+    <h1>WHIP/WHEP Example</h1>
+      <div id="videosContainer">
+        <div style="margin-right: 5%;">
+          <video id="whip"></video>
+          <h3>WHIP</h3>
+        </div>
+        <div>
+          <video id="whep"></video>
+          <h3>WHEP</h3>
+        </div>
+      </div>
+  </body>
+</html>
