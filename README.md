@@ -2,6 +2,12 @@
 
 This project is a demonstration on how to create a simple JavaScript publisher & viewer application using the standardized [WHIP (WebRTC-HTTP Ingress Protocol)](https://www.ietf.org/archive/id/draft-ietf-wish-whip-01.html) for WebRTC broadcasting and [WHEP (WebRTC-HTTP Egress Protocol)](https://www.ietf.org/id/draft-murillo-whep-01.html) for WebRTC playback.
 
+## Prerequisites
+- Yarn version 1.22.0 or higher
+- Node 16 or higher
+- Npm version 8.19.0 or higher
+- [A Dolby.io account](https://dashboard.dolby.io/signup)
+
 ## Setup
 1. Clone this project and install the dependencies with:
     ```bash
